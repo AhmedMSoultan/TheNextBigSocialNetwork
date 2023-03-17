@@ -7,18 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A247D0229C10D8B00E45529 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D0129C10D8B00E45529 /* Extensions.swift */; };
+		0A247D0429C11AB300E45529 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D0329C11AB300E45529 /* HomeView.swift */; };
+		0A247D0729C25B2700E45529 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D0629C25B2700E45529 /* LoginResponse.swift */; };
+		0A247D0929C25BA500E45529 /* HomePostsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D0829C25BA500E45529 /* HomePostsResponse.swift */; };
+		0A247D0B29C25F2400E45529 /* HighlightedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D0A29C25F2400E45529 /* HighlightedText.swift */; };
+		0A247D0F29C2613100E45529 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D0E29C2613100E45529 /* URLs.swift */; };
+		0A247D1129C2672000E45529 /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D1029C2672000E45529 /* NetworkLayer.swift */; };
+		0A247D1429C368C200E45529 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D1329C368C200E45529 /* LoginViewModel.swift */; };
+		0A247D1629C375AB00E45529 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D1529C375AB00E45529 /* UserDefaultsKeys.swift */; };
+		0A247D1929C380CF00E45529 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D1829C380CF00E45529 /* HomeViewModel.swift */; };
+		0A247D1B29C3826700E45529 /* PostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D1A29C3826700E45529 /* PostsView.swift */; };
+		0A247D1E29C3836300E45529 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D1D29C3836300E45529 /* PostCell.swift */; };
+		0A247D2029C3990800E45529 /* KingFisherImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A247D1F29C3990800E45529 /* KingFisherImage.swift */; };
 		0A2B479329C100F5007AF57F /* TheNextBigSocialNetworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B479229C100F5007AF57F /* TheNextBigSocialNetworkApp.swift */; };
 		0A2B479529C100F5007AF57F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B479429C100F5007AF57F /* ContentView.swift */; };
 		0A2B479729C100F7007AF57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2B479629C100F7007AF57F /* Assets.xcassets */; };
 		0A2B479A29C100F7007AF57F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2B479929C100F7007AF57F /* Preview Assets.xcassets */; };
+		0A2B47A429C1023A007AF57F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B47A329C1023A007AF57F /* LoginView.swift */; };
+		0A2B47A729C107D6007AF57F /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2B47A629C107D6007AF57F /* AppColors.swift */; };
+		8FF2E5A8ADBA495455A6FB56 /* Pods_TheNextBigSocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610D6025787D52E22225187E /* Pods_TheNextBigSocialNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0893395520A14A500C02FE27 /* Pods-TheNextBigSocialNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheNextBigSocialNetwork.debug.xcconfig"; path = "Target Support Files/Pods-TheNextBigSocialNetwork/Pods-TheNextBigSocialNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		0A247D0129C10D8B00E45529 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0A247D0329C11AB300E45529 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0A247D0629C25B2700E45529 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		0A247D0829C25BA500E45529 /* HomePostsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostsResponse.swift; sourceTree = "<group>"; };
+		0A247D0A29C25F2400E45529 /* HighlightedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightedText.swift; sourceTree = "<group>"; };
+		0A247D0E29C2613100E45529 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		0A247D1029C2672000E45529 /* NetworkLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		0A247D1329C368C200E45529 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		0A247D1529C375AB00E45529 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		0A247D1829C380CF00E45529 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0A247D1A29C3826700E45529 /* PostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsView.swift; sourceTree = "<group>"; };
+		0A247D1D29C3836300E45529 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		0A247D1F29C3990800E45529 /* KingFisherImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingFisherImage.swift; sourceTree = "<group>"; };
 		0A2B478F29C100F5007AF57F /* TheNextBigSocialNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheNextBigSocialNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2B479229C100F5007AF57F /* TheNextBigSocialNetworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNextBigSocialNetworkApp.swift; sourceTree = "<group>"; };
 		0A2B479429C100F5007AF57F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A2B479629C100F7007AF57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A2B479929C100F7007AF57F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A2B47A329C1023A007AF57F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0A2B47A629C107D6007AF57F /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		59DDA29CCD3B564F951F9B0E /* Pods-TheNextBigSocialNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheNextBigSocialNetwork.release.xcconfig"; path = "Target Support Files/Pods-TheNextBigSocialNetwork/Pods-TheNextBigSocialNetwork.release.xcconfig"; sourceTree = "<group>"; };
+		610D6025787D52E22225187E /* Pods_TheNextBigSocialNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheNextBigSocialNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +60,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF2E5A8ADBA495455A6FB56 /* Pods_TheNextBigSocialNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A247D0529C25AF800E45529 /* PONSOs */ = {
+			isa = PBXGroup;
+			children = (
+				0A247D0629C25B2700E45529 /* LoginResponse.swift */,
+				0A247D0829C25BA500E45529 /* HomePostsResponse.swift */,
+			);
+			path = PONSOs;
+			sourceTree = "<group>";
+		};
+		0A247D0C29C25F3900E45529 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A247D0A29C25F2400E45529 /* HighlightedText.swift */,
+				0A247D1F29C3990800E45529 /* KingFisherImage.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		0A247D0D29C260F800E45529 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A247D0129C10D8B00E45529 /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0A247D1229C3689B00E45529 /* Login Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0A2B47A329C1023A007AF57F /* LoginView.swift */,
+				0A247D1329C368C200E45529 /* LoginViewModel.swift */,
+			);
+			path = "Login Screen";
+			sourceTree = "<group>";
+		};
+		0A247D1729C380B800E45529 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0A247D1C29C3834100E45529 /* Posts View */,
+				0A247D0329C11AB300E45529 /* HomeView.swift */,
+				0A247D1829C380CF00E45529 /* HomeViewModel.swift */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		0A247D1C29C3834100E45529 /* Posts View */ = {
+			isa = PBXGroup;
+			children = (
+				0A247D1A29C3826700E45529 /* PostsView.swift */,
+				0A247D1D29C3836300E45529 /* PostCell.swift */,
+			);
+			path = "Posts View";
+			sourceTree = "<group>";
+		};
 		0A2B478629C100F5007AF57F = {
 			isa = PBXGroup;
 			children = (
 				0A2B479129C100F5007AF57F /* TheNextBigSocialNetwork */,
 				0A2B479029C100F5007AF57F /* Products */,
+				AEB1649DB54B855F5D806558 /* Pods */,
+				DDD72AF6908F3CC99FC3FABD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +142,11 @@
 		0A2B479129C100F5007AF57F /* TheNextBigSocialNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				0A247D0D29C260F800E45529 /* Helpers */,
+				0A2B47A529C107C4007AF57F /* Constants */,
+				0A2B47A229C1021F007AF57F /* Network */,
+				0A2B47A129C1020A007AF57F /* Models */,
+				0A2B47A029C101FF007AF57F /* Views */,
 				0A2B479229C100F5007AF57F /* TheNextBigSocialNetworkApp.swift */,
 				0A2B479429C100F5007AF57F /* ContentView.swift */,
 				0A2B479629C100F7007AF57F /* Assets.xcassets */,
@@ -67,6 +163,59 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0A2B47A029C101FF007AF57F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A247D0C29C25F3900E45529 /* Custom Views */,
+				0A247D1229C3689B00E45529 /* Login Screen */,
+				0A247D1729C380B800E45529 /* Home Screen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0A2B47A129C1020A007AF57F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A247D0529C25AF800E45529 /* PONSOs */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A2B47A229C1021F007AF57F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0A247D1029C2672000E45529 /* NetworkLayer.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0A2B47A529C107C4007AF57F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				0A2B47A629C107D6007AF57F /* AppColors.swift */,
+				0A247D0E29C2613100E45529 /* URLs.swift */,
+				0A247D1529C375AB00E45529 /* UserDefaultsKeys.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		AEB1649DB54B855F5D806558 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0893395520A14A500C02FE27 /* Pods-TheNextBigSocialNetwork.debug.xcconfig */,
+				59DDA29CCD3B564F951F9B0E /* Pods-TheNextBigSocialNetwork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDD72AF6908F3CC99FC3FABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				610D6025787D52E22225187E /* Pods_TheNextBigSocialNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A2B479D29C100F7007AF57F /* Build configuration list for PBXNativeTarget "TheNextBigSocialNetwork" */;
 			buildPhases = (
+				5FBB6331BA5181D798C1E091 /* [CP] Check Pods Manifest.lock */,
 				0A2B478B29C100F5007AF57F /* Sources */,
 				0A2B478C29C100F5007AF57F /* Frameworks */,
 				0A2B478D29C100F5007AF57F /* Resources */,
+				498814AA7CBCDD474A453069 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +283,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		498814AA7CBCDD474A453069 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheNextBigSocialNetwork/Pods-TheNextBigSocialNetwork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheNextBigSocialNetwork/Pods-TheNextBigSocialNetwork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheNextBigSocialNetwork/Pods-TheNextBigSocialNetwork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FBB6331BA5181D798C1E091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheNextBigSocialNetwork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A2B478B29C100F5007AF57F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A247D0229C10D8B00E45529 /* Extensions.swift in Sources */,
+				0A2B47A429C1023A007AF57F /* LoginView.swift in Sources */,
+				0A247D1629C375AB00E45529 /* UserDefaultsKeys.swift in Sources */,
+				0A2B47A729C107D6007AF57F /* AppColors.swift in Sources */,
+				0A247D0929C25BA500E45529 /* HomePostsResponse.swift in Sources */,
+				0A247D0429C11AB300E45529 /* HomeView.swift in Sources */,
+				0A247D2029C3990800E45529 /* KingFisherImage.swift in Sources */,
+				0A247D1129C2672000E45529 /* NetworkLayer.swift in Sources */,
+				0A247D0F29C2613100E45529 /* URLs.swift in Sources */,
+				0A247D1B29C3826700E45529 /* PostsView.swift in Sources */,
 				0A2B479529C100F5007AF57F /* ContentView.swift in Sources */,
+				0A247D1929C380CF00E45529 /* HomeViewModel.swift in Sources */,
+				0A247D1429C368C200E45529 /* LoginViewModel.swift in Sources */,
 				0A2B479329C100F5007AF57F /* TheNextBigSocialNetworkApp.swift in Sources */,
+				0A247D0B29C25F2400E45529 /* HighlightedText.swift in Sources */,
+				0A247D0729C25B2700E45529 /* LoginResponse.swift in Sources */,
+				0A247D1E29C3836300E45529 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +469,7 @@
 		};
 		0A2B479E29C100F7007AF57F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0893395520A14A500C02FE27 /* Pods-TheNextBigSocialNetwork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +499,7 @@
 		};
 		0A2B479F29C100F7007AF57F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59DDA29CCD3B564F951F9B0E /* Pods-TheNextBigSocialNetwork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
