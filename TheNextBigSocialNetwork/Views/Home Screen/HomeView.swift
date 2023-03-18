@@ -15,6 +15,7 @@ struct HomeView: View {
             PostsView()
                 .tabItem {
                     TabBarItem(tabItemImage: .home)
+                        .frame(width: 10, height: 10, alignment: .center)
                 }
             
             Text("Shop")
@@ -48,17 +49,18 @@ struct TabBarItem: View {
     }
     
     var body: some View {
-        VStack(spacing: 16) {
+        VStack {
             RoundedRectangle(cornerRadius: 8)
+                .fill(Color.accentColor)
                 .frame(width: 12, height: 2)
             
             Image(tabBarImage.rawValue)
-                .renderingMode(.template)
                 .resizable()
-                .frame(width: 10, height: 10)
-                .scaledToFit()
+                .renderingMode(.template)
+                .frame(width: 26, height: 26)
+                .scaledToFill()
         }
-        .frame(width: 24, height: 24)
+        .padding(.top)
     }
 }
 
